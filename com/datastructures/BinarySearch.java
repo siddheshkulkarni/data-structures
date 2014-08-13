@@ -40,31 +40,5 @@ public class BinarySearch {
 	   }	  
 	  
   } // Add
-  public void Delete(int element)
-  {
-	 Node traverse=head, previous=head;
-	 if(traverse==null)
-	 {
-		 return;
-	 }
-		if(traverse.getData()==element)
-		{
-			return;
-		}
-			
-		if(traverse.getLeft().getData()>=element)
-		{
-			previous=traverse;
-			traverse=traverse.getLeft();
-			return;
-		}
-		if(traverse.getRight().getData()<=element)
-		{
-			previous=traverse;
-			traverse=traverse.getRight();
-		}				
-			
-	  // main if	 
-	  
-  } // Delete
+  
 }
